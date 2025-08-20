@@ -1,0 +1,26 @@
+.gallery-section {
+  padding: 5rem 0;
+  text-align: center;
+  background-color: var(--secondary-color);
+}
+
+.gallery-section .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -0.5rem; /* Counteract column padding */
+  margin-right: -0.5rem;
+}
+
+.gallery-section .col-md-4 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-bottom: 1rem; /* Spacing between rows */
+}
+
+.gallery-section img {
+  width: 100%;
+  height: 250px; /* Fixed height for uniformity */
+  object-fit: cover; /* Ensures images cover the area without distortion */
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,33 @@
+# IaC_Automation/devops-infra-project/.gitignore
+*.env 
+
+# Ignore Terraform state and secrets
+*.tfstate
+*.tfstate.backup
+.terraform/
+terraform.tfvars
+*.tfvars 
+*.tfstate.*
+
+*.terraform.tfstate.lock.info
+*.terraform/.terraform.lock.hcl
+
+# Ignore Ansible artifacts
+*.retry
+
+# Ignore Node/other dependencies if any
+node_modules/
+
+# Mac / system files
+.DS_Store
+.git/
+filter-repo/
+HEAD
+config
+description
+hooks/
+info/
+objects/
+packed-refs
+.env
+terraform/terraform.tfvars

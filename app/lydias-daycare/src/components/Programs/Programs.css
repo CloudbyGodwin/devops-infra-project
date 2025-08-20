@@ -1,0 +1,31 @@
+.programs-section {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.programs-section .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.programs-section .col-md-4 {
+  display: flex;
+  align-items: stretch; /* Ensures columns stretch to the height of the tallest item */
+}
+
+.card {
+  margin-bottom: 2rem;
+  border: 1px solid var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Ensures the card takes full width of its column */
+}
+
+.card-body {
+  flex-grow: 1; /* Allows the card body to expand and fill available space */
+  padding: 1.5rem; /* Consistent padding inside the card body */
+}
+
+.card-title {
+  color: var(--primary-color);
+}

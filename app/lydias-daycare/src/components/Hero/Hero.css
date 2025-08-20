@@ -1,0 +1,30 @@
+
+.hero-section {
+  background-image: url('../../../public/images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  color: var(--light-color);
+  text-align: center;
+  padding: 10rem 0;
+  min-height: 600px; /* Ensure a minimum height for the hero section */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.65); /* Increased opacity for better contrast */
+  padding: 3rem 2rem; /* Increased vertical padding */
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.hero-content h1 {
+  color: var(--primary-color);
+  font-size: 3.5rem; /* Increased font size for main heading */
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem; /* Increased font size for subheading */
+}
